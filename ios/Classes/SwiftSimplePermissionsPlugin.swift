@@ -1,6 +1,6 @@
 import Flutter
 
-public class SwiftSimplePermissionsPlugin: NSObject, FlutterPlugin, CLLocationManagerDelegate {
+public class SwiftSimplePermissionsPlugin: NSObject, FlutterPlugin {
     var whenInUse = false
     var result: FlutterResult? = nil
 
